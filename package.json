@@ -1,0 +1,19 @@
+{
+  "name": "dynamic-pdf",
+  "packageManager": "yarn@4.1.1",
+  "scripts": {
+    "dev": "next dev",
+    "format": "npx @biomejs/biome format --write ./src"
+  },
+  "dependencies": {
+    "@biomejs/biome": "^1.7.0",
+    "@types/react": "^18.2.79",
+    "html-to-image": "^1.11.11",
+    "jspdf": "^2.5.1",
+    "modern-css-reset": "^1.4.0",
+    "next": "^14.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.4.5"
+  }
+}
